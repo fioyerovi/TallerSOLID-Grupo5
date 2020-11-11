@@ -3,26 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Compra;
 
-package tallersolidg5;
-
-import java.util.List;
+import java.util.LinkedList;
 
 /**
  *
- * @author fioye
+ * @author tagoa
  */
-public class Compra {
-    private Pago pago;
-    private PagoPayPal pagoPayPal;
-    private List articulos;
-    public Compra(Pago pago){
-        //iniciar
-    }
+public class Carrito {
+    private LinkedList<Articulo> productos;
+    
+    
     public void agregarArticulo(Articulo articulo){
         //agregar articulo de compra
     }
     public void removerArticulo(Articulo articulo){
         //remover articulo de compra
+    }
+    public int CalcularMonto(){
+        //calcular el monto de los articulos en el carrito
+        return 0;
     }
 }
